@@ -1,0 +1,52 @@
+//Programmer: Collin Woelfl
+// HW: 1
+//CMPR120 #21924
+
+/*
+//A. Please fill in the necessary syntax to make the program correct.
+//B. Once the program can compile and run, what is the output of the program?
+
+#include <iostream> //<iostream>
+using namespace std;
+
+int main() //int was missing from main
+{
+	cout << "Hello World" << endl;
+	int weekNum; //semi collon missing
+	
+	//assign value to weekNum
+	weekNum = 2; //missing equal sign
+
+	//Print a message on the screen
+	cout << "This is my week #" << weekNum << endl; //Missing cout 
+
+	return 0;
+
+} //Missing curly bracket 
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	cout << "Hello World!" << endl << endl;
+	cout << '"' << "This is my first program in C++." << '"' << endl;
+	cout << "By the way, a back slash symbol is  ";
+	cout << '"' << "\\;" << '"' << endl << endl << endl;
+	cout << "Programming is fun!" << endl << "Good bye!";
+
+
+	return 0;
+}
+/*
+Hello World!
+
+"This is my first program in C++."
+By the way, a back slash symbol is  "\;"
+
+
+Programming is fun!
+Good bye!
+*/
