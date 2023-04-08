@@ -6,9 +6,9 @@ int main()
 {
 	double m1, m2, m3, m4;
 	double amb;
-	double oneYear;
 	setprecision(2);
-
+	
+	//Q1-Q4 
 	cout << "Please input your water bill for quarter 1:" << endl;
 	cin >> m1;
 
@@ -21,13 +21,21 @@ int main()
 	cout << "Please input your water bill for quarter 4:" << endl;
 	cin >> m4;
 
-	
-	
-	
-	amb = (m1 + m2 + m3 + m4) / 12;
-	
 
-	cout << "Your average monthly bill is " << setprecision(2) << fixed << amb << endl;
+	//Average Montly Bill
+	amb = (m1 + m2 + m3 + m4) / 12;
+
+
+	cout << "Your average monthly bill is " << setprecision(2) << fixed << amb;
+	//Usuage Scenario
+	if (amb > 76)
+	{
+		cout << "  Too much water usage.\n";
+	}
+	else
+	{
+		cout << "  You're uising typical amount of water.\n";
+	}
 
 	system("pause");
 	return 0;
